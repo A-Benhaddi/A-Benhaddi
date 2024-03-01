@@ -18,11 +18,10 @@ nav{
     width: 100px;
 }
 main{
-    height: 100%;
+    height: 600px;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    background-color: red;
+    background-color: rgb(183, 31, 31);
 }
 .push{
     width: 299px;
@@ -67,37 +66,4 @@ main{
     padding: 10px;
     background-color: red;
     justify-content: center;
-}
-.intro-push{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.intro-container{
-    height: 700px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.intro{
-    height: 500px;
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    background-color: white;
-}
-.left-block{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    background-color: red;
-}
-.right-block{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    background-color: red;
 }
